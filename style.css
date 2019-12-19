@@ -124,17 +124,15 @@ hr{
 
 .us:hover{
     background-color:rgb(26, 26, 98);
-    color: white;
-    text-decoration: none;
+color: white;
+text-decoration:none ;
+    
 }
 
 .us{
-  color: #333;
-    
-    transition: all .3s linear;
-
-
-
+ color: #333;
+ transition: all .3s linear;
+ 
 }
 
   #up{
@@ -178,4 +176,30 @@ hr{
    line-height: 22px;
    margin-bottom: 10px;
 
+}
+
+.link a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 18px;
+font-size:18px;
+padding: 22px;
+margin-left:102px;
+direction: ltr;
+unicode-bidi: isolate;
+cursor: pointer;
+background-color: transparent;
+font-family: inherit;
+}
+ .link a:hover {
+    color: #385898;;
+    text-decoration: underline;
+  }
+
+
+#img{
+float: right;;
+margin-right: 1220px;
+margin-bottom: -58px;
 }
